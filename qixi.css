@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#poster-container{
+    width: 100%;
+    height: 100%;
+}
+
+#poster-wrapper{
+    width: 100%;
+    height:100%;
+    background-image: url('./imgs/background.png');
+    background-size: cover;
+    position: absolute;
+}
+
+.front-elements-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: front-elements-animation;
+    animation-duration: 1s;
+
+}
+
+@keyframes front-elements-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.front-elements-wrapper > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.cloud-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: cloud-animation;
+    animation-duration: 1s;
+}
+
+@keyframes cloud-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+ .cloud-wrapper > img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+.pavilion-layer-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: pavilion-layer-animation;
+    animation-duration: 1s;
+}
+
+@keyframes pavilion-layer-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.pavilion-layer-wrapper > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.cloud-shadow-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: cloud-shadow-layer-animation;
+    animation-duration: 1s;
+}
+
+@keyframes cloud-shadow-layer-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+    
+.cloud-shadow-wrapper > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 9%;
+}
+
+.cloud-layer-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: cloud-layer-animation;
+    animation-duration: 1s;
+}
+
+@keyframes cloud-layer-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cloud-layer-wrapper > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.character-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation-name: character-animation;
+    animation-duration: 1s;
+}
+
+@keyframes character-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.character-wrapper > img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    bottom: 9%;
+    left: 20%;
+}
+
+.blossom-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.blossom-wrapper > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.qixi-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.qixi-wrapper > img {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    bottom: 64%;
+    left: 30%;
+}
+
+.seal-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.seal-wrapper > img {
+    width: 9%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 44%;
+}
+
+.poem-layer{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+}
+
